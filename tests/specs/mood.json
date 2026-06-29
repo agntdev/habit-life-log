@@ -1,0 +1,16 @@
+[
+  {
+    "name": "/mood rating",
+    "steps": [
+      {
+        "send": { "text": "/mood" },
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": { "text": "How are you feeling? Tap a rating:" }
+          }
+        ]
+      }
+    ]
+  }
+]

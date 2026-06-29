@@ -1,0 +1,16 @@
+[
+  {
+    "name": "/log opens checklist",
+    "steps": [
+      {
+        "send": { "text": "/log" },
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": { "text": "Here's your daily checklist. Tap to check habits, then add a note if you'd like!" }
+          }
+        ]
+      }
+    ]
+  }
+]

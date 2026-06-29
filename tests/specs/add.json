@@ -1,0 +1,16 @@
+[
+  {
+    "name": "/add habit flow",
+    "steps": [
+      {
+        "send": { "text": "/add" },
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": { "text": "What habit would you like to track? Reply with the name and I'll save it for your checklist." }
+          }
+        ]
+      }
+    ]
+  }
+]

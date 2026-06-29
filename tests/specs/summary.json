@@ -1,0 +1,16 @@
+[
+  {
+    "name": "/summary request",
+    "steps": [
+      {
+        "send": { "text": "/summary" },
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": { "text": "For which range? Pick one below and I'll prepare an encouraging AI insight for you." }
+          }
+        ]
+      }
+    ]
+  }
+]
