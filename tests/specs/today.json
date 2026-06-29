@@ -1,0 +1,16 @@
+[
+  {
+    "name": "/today shows summary",
+    "steps": [
+      {
+        "send": { "text": "/today" },
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": { "text": "No entries logged yet today — start with the Log button! Keep going, you're building momentum." }
+          }
+        ]
+      }
+    ]
+  }
+]

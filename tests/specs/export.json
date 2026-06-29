@@ -1,0 +1,16 @@
+[
+  {
+    "name": "/export data",
+    "steps": [
+      {
+        "send": { "text": "/export" },
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": { "text": "Ready to export your data? This will send a JSON file with all your logs and habits." }
+          }
+        ]
+      }
+    ]
+  }
+]

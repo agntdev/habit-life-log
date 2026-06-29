@@ -1,0 +1,16 @@
+[
+  {
+    "name": "/delete data",
+    "steps": [
+      {
+        "send": { "text": "/delete" },
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": { "text": "Delete data? Choose carefully — this is permanent." }
+          }
+        ]
+      }
+    ]
+  }
+]
